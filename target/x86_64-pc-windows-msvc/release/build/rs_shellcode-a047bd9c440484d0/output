@@ -1,7 +1,0 @@
-cargo:rustc-link-arg-bins=/ALIGN:8
-cargo:rustc-link-arg-bins=/FILEALIGN:1
-cargo:rustc-link-arg-bins=/MERGE:.rdata=.text
-cargo:rustc-link-arg-bins=/MERGE:.pdata=.text
-cargo:rustc-link-arg-bins=/EMITPOGOPHASEINFO
-cargo:rustc-link-arg-bins=/DEBUG:NONE
-cargo:rustc-link-arg-bins=/STUB:stub.exe
